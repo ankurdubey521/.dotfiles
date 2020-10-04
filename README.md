@@ -1,4 +1,6 @@
 # .dotfiles
 Dotfiles for Dev VM
 
-![Screenshot](images/screenshots/1.png Desktop)
+## Desktop 
+![Screenshot](images/screenshots/1.png)
+ 
