@@ -1,0 +1,74 @@
+!--------------------------
+! ROFI Color theme
+! -------------------------
+rofi.color-enabled: true
+rofi.color-window: #000, #000, #000
+rofi.color-normal: argb:00273238, #c1c1c1, argb:3a273238, #394249, #ffffff
+rofi.color-active: argb:00273238, #80cbc4, argb:3a273238, #394249, #80cbc4
+rofi.color-urgent: argb:00273238, #ff1844, argb:3a273238, #394249, #ff1844
+rofi.hide-scrollbar: true
+!------------------------
+! Urxvt Settings
+!------------------------
+URxvt.scrollBar: false
+URxvt.cursorBlink: true
+URxvt.perl-ext-common: default,url-select,keyboard-select
+URxvt.url-select-launcher: google-chrome-stable
+URxvt.url-select-underline: true
+URxvt.visualBell: false
+URxvt.keysym.Shift-Control-V: eval: paste_clipboard
+URxvt.keysym.Shift-Control-C: eval: selection_to_clipboard
+URxvt.keysym.Control-Meta-c: builtin-string
+URxvt.keysym.Control-Meta-v: builtin-string
+URxvt.font: xft:DejaVu Sans Mono for Powerline:pixelsize=14
+URxvt.boldFont: xft:DejaVu Sans Mono for Powerline:pixelsize=14:weight=bold
+URxvt.letterSpace: -1
+URxvt.saveLines: 200000
+!---------------------------------
+! Xft settings
+! --------------------------------
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+Xft.autohint:   false
+Xft.lcdfilter:  lcddefault
+
+! special
+*.foreground:   #ebb9e0
+*.background:   #0f001e
+*.cursorColor:  #ebb9e0
+
+! black
+*.color0:       #1b181b
+*.color8:       #776977
+
+! red
+*.color1:       #ca402b
+*.color9:       #ca402b
+
+! green
+*.color2:       #379a37
+*.color10:      #379a37
+
+! yellow
+*.color3:       #bb8a35
+*.color11:      #bb8a35
+
+! blue
+*.color4:       #516aec
+*.color12:      #516aec
+
+! magenta
+*.color5:       #7b59c0
+*.color13:      #7b59c0
+
+! cyan
+*.color6:       #159393
+*.color14:      #159393
+
+! white
+*.color7:       #ab9bab
+*.color15:      #f7f3f7
+
