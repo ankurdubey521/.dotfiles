@@ -1,6 +1,8 @@
 ## https://i3wm.org/docs/userguide.html
 
 set $mod Mod4
+# Start polling xrdb for changes
+exec ~/configs-repo/scripts/i3_auto_restart_on_monitor_config_change.py & disown
 
 # Disable beep
 exec xset -b
