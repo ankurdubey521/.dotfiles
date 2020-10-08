@@ -7,6 +7,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User Defined Env
 export EDITOR="vim"
+export SAM_CLI_TELEMETRY=0
 
 # Alias
 alias ec2ssh='ssh -i ~/.ssh/ankurdubey521-mumbai.pem -l ubuntu'
