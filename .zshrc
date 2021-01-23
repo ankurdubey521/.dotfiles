@@ -19,6 +19,7 @@ alias yayin='yay --sudoloop --noconfirm -S'
 alias yayup='yay --sudoloop -Syyuu'
 alias yayupn='yay --sudoloop --noconfirm -Syyuu'
 alias yayscn='yay --sudoloop --noconfirm -Sc'
+alias pacrmundep='sudo pacman -Rns $(pacman -Qqtd)'
 # Colored Variants of Commands
 alias diff='diff --color=auto'
 alias grep='grep --color=auto'
