@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Abyss",
+    "terminal.integrated.fontFamily": "DejaVu Sans Mono for Powerline",
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 0,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.menuBarVisibility": "toggle",
+    "editor.minimap.enabled": false,
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "python.languageServer": "Pylance",
+    "jupyter.sendSelectionToInteractiveWindow": false,
+    "editor.largeFileOptimizations": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDelete": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "solidity.compileUsingRemoteVersion": "latest",
+    "[solidity]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "todo-tree.tree.showScanModeButton": false
+}
