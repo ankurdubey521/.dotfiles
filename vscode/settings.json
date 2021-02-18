@@ -56,6 +56,9 @@
     "<C-a>": false,
     "<C-f>": false,
     "<C-b>": false,
-    "<C-j>": false
-  }
+    "<C-j>": false,
+    "<C-Shift-p>": false
+  },
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
