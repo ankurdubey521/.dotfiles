@@ -9,9 +9,17 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR="vim"
 export SAM_CLI_TELEMETRY=0
 
+# Functions
+function pid-by-port () { 
+	params="sport = :${1}"
+	sudo ss -lptn '${params}'
+}
+
 # Alias
 alias ec2ssh='ssh -i ~/.ssh/ankurdubey521-mumbai.pem -l ubuntu'
 alias git-graph='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
+alias git-open='~/configs-repo/scripts/git-open/git-open'
+
 # Yay
 alias yayi='yay --sudoloop -S'
 alias yayr='yay --sudoloop -Rs'
